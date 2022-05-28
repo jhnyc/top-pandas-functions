@@ -1,0 +1,1319 @@
+section,sub_section,is_prop
+Input/output,pandas.read_pickle,False
+Input/output,pandas.DataFrame.to_pickle,False
+Input/output,pandas.read_table,False
+Input/output,pandas.read_csv,False
+Input/output,pandas.DataFrame.to_csv,False
+Input/output,pandas.read_fwf,False
+Input/output,pandas.read_clipboard,False
+Input/output,pandas.DataFrame.to_clipboard,False
+Input/output,pandas.read_excel,False
+Input/output,pandas.DataFrame.to_excel,False
+Input/output,pandas.ExcelFile.parse,False
+Input/output,pandas.io.formats.style.Styler.to_excel,False
+Input/output,pandas.ExcelWriter,False
+Input/output,pandas.read_json,False
+Input/output,pandas.json_normalize,False
+Input/output,pandas.DataFrame.to_json,False
+Input/output,pandas.io.json.build_table_schema,False
+Input/output,pandas.read_html,False
+Input/output,pandas.DataFrame.to_html,False
+Input/output,pandas.io.formats.style.Styler.to_html,False
+Input/output,pandas.read_xml,False
+Input/output,pandas.DataFrame.to_xml,False
+Input/output,pandas.DataFrame.to_latex,False
+Input/output,pandas.io.formats.style.Styler.to_latex,False
+Input/output,pandas.read_hdf,False
+Input/output,pandas.HDFStore.put,False
+Input/output,pandas.HDFStore.append,False
+Input/output,pandas.HDFStore.get,False
+Input/output,pandas.HDFStore.select,False
+Input/output,pandas.HDFStore.info,False
+Input/output,pandas.HDFStore.keys,False
+Input/output,pandas.HDFStore.groups,False
+Input/output,pandas.HDFStore.walk,False
+Input/output,pandas.read_feather,False
+Input/output,pandas.DataFrame.to_feather,False
+Input/output,pandas.read_parquet,False
+Input/output,pandas.DataFrame.to_parquet,False
+Input/output,pandas.read_orc,False
+Input/output,pandas.read_sas,False
+Input/output,pandas.read_spss,False
+Input/output,pandas.read_sql_table,False
+Input/output,pandas.read_sql_query,False
+Input/output,pandas.read_sql,False
+Input/output,pandas.DataFrame.to_sql,False
+Input/output,pandas.read_gbq,False
+Input/output,pandas.read_stata,False
+Input/output,pandas.DataFrame.to_stata,False
+Input/output,pandas.io.stata.StataReader.data_label,False
+Input/output,pandas.io.stata.StataReader.value_labels,False
+Input/output,pandas.io.stata.StataReader.variable_labels,False
+Input/output,pandas.io.stata.StataWriter.write_file,False
+General functions,pandas.melt,False
+General functions,pandas.pivot,False
+General functions,pandas.pivot_table,False
+General functions,pandas.crosstab,False
+General functions,pandas.cut,False
+General functions,pandas.qcut,False
+General functions,pandas.merge,False
+General functions,pandas.merge_ordered,False
+General functions,pandas.merge_asof,False
+General functions,pandas.concat,False
+General functions,pandas.get_dummies,False
+General functions,pandas.factorize,False
+General functions,pandas.unique,False
+General functions,pandas.wide_to_long,False
+General functions,pandas.isna,False
+General functions,pandas.isnull,False
+General functions,pandas.notna,False
+General functions,pandas.notnull,False
+General functions,pandas.to_numeric,False
+General functions,pandas.to_datetime,False
+General functions,pandas.to_timedelta,False
+General functions,pandas.date_range,False
+General functions,pandas.bdate_range,False
+General functions,pandas.period_range,False
+General functions,pandas.timedelta_range,False
+General functions,pandas.infer_freq,False
+General functions,pandas.interval_range,False
+General functions,pandas.eval,False
+General functions,pandas.util.hash_array,False
+General functions,pandas.util.hash_pandas_object,False
+General functions,pandas.test,False
+Series,pandas.Series,False
+Series,pandas.Series.index,True
+Series,pandas.Series.array,True
+Series,pandas.Series.values,True
+Series,pandas.Series.dtype,True
+Series,pandas.Series.shape,True
+Series,pandas.Series.nbytes,True
+Series,pandas.Series.ndim,True
+Series,pandas.Series.size,True
+Series,pandas.Series.T,True
+Series,pandas.Series.memory_usage,False
+Series,pandas.Series.hasnans,True
+Series,pandas.Series.empty,True
+Series,pandas.Series.dtypes,True
+Series,pandas.Series.name,True
+Series,pandas.Series.flags,True
+Series,pandas.Series.set_flags,False
+Series,pandas.Series.astype,False
+Series,pandas.Series.convert_dtypes,False
+Series,pandas.Series.infer_objects,False
+Series,pandas.Series.copy,False
+Series,pandas.Series.bool,False
+Series,pandas.Series.to_numpy,False
+Series,pandas.Series.to_period,False
+Series,pandas.Series.to_timestamp,False
+Series,pandas.Series.to_list,False
+Series,pandas.Series.__array__,False
+Series,pandas.Series.get,False
+Series,pandas.Series.at,True
+Series,pandas.Series.iat,True
+Series,pandas.Series.loc,True
+Series,pandas.Series.iloc,True
+Series,pandas.Series.__iter__,False
+Series,pandas.Series.items,False
+Series,pandas.Series.iteritems,False
+Series,pandas.Series.keys,False
+Series,pandas.Series.pop,False
+Series,pandas.Series.item,False
+Series,pandas.Series.xs,False
+Series,pandas.Series.add,False
+Series,pandas.Series.sub,False
+Series,pandas.Series.mul,False
+Series,pandas.Series.div,False
+Series,pandas.Series.truediv,False
+Series,pandas.Series.floordiv,False
+Series,pandas.Series.mod,False
+Series,pandas.Series.pow,False
+Series,pandas.Series.radd,False
+Series,pandas.Series.rsub,False
+Series,pandas.Series.rmul,False
+Series,pandas.Series.rdiv,False
+Series,pandas.Series.rtruediv,False
+Series,pandas.Series.rfloordiv,False
+Series,pandas.Series.rmod,False
+Series,pandas.Series.rpow,False
+Series,pandas.Series.combine,False
+Series,pandas.Series.combine_first,False
+Series,pandas.Series.round,False
+Series,pandas.Series.lt,False
+Series,pandas.Series.gt,False
+Series,pandas.Series.le,False
+Series,pandas.Series.ge,False
+Series,pandas.Series.ne,False
+Series,pandas.Series.eq,False
+Series,pandas.Series.product,False
+Series,pandas.Series.dot,False
+Series,pandas.Series.apply,False
+Series,pandas.Series.agg,False
+Series,pandas.Series.aggregate,False
+Series,pandas.Series.transform,False
+Series,pandas.Series.map,False
+Series,pandas.Series.groupby,False
+Series,pandas.Series.rolling,False
+Series,pandas.Series.expanding,False
+Series,pandas.Series.ewm,False
+Series,pandas.Series.pipe,False
+Series,pandas.Series.abs,False
+Series,pandas.Series.all,False
+Series,pandas.Series.any,False
+Series,pandas.Series.autocorr,False
+Series,pandas.Series.between,False
+Series,pandas.Series.clip,False
+Series,pandas.Series.corr,False
+Series,pandas.Series.count,False
+Series,pandas.Series.cov,False
+Series,pandas.Series.cummax,False
+Series,pandas.Series.cummin,False
+Series,pandas.Series.cumprod,False
+Series,pandas.Series.cumsum,False
+Series,pandas.Series.describe ,False
+Series,pandas.Series.diff,False
+Series,pandas.Series.factorize,False
+Series,pandas.Series.kurt,False
+Series,pandas.Series.mad,False
+Series,pandas.Series.max,False
+Series,pandas.Series.mean,False
+Series,pandas.Series.median,False
+Series,pandas.Series.min,False
+Series,pandas.Series.mode,False
+Series,pandas.Series.nlargest,False
+Series,pandas.Series.nsmallest,False
+Series,pandas.Series.pct_change,False
+Series,pandas.Series.prod,False
+Series,pandas.Series.quantile,False
+Series,pandas.Series.rank,False
+Series,pandas.Series.sem,False
+Series,pandas.Series.skew,False
+Series,pandas.Series.std,False
+Series,pandas.Series.sum,False
+Series,pandas.Series.var,False
+Series,pandas.Series.kurtosis,False
+Series,pandas.Series.unique,False
+Series,pandas.Series.nunique,False
+Series,pandas.Series.is_unique,True
+Series,pandas.Series.is_monotonic,True
+Series,pandas.Series.is_monotonic_increasing,True
+Series,pandas.Series.is_monotonic_decreasing,True
+Series,pandas.Series.value_counts,False
+Series,pandas.Series.align,False
+Series,pandas.Series.drop,False
+Series,pandas.Series.droplevel,False
+Series,pandas.Series.drop_duplicates,False
+Series,pandas.Series.duplicated,False
+Series,pandas.Series.equals,False
+Series,pandas.Series.first,False
+Series,pandas.Series.head,False
+Series,pandas.Series.idxmax,False
+Series,pandas.Series.idxmin,False
+Series,pandas.Series.isin,False
+Series,pandas.Series.last,False
+Series,pandas.Series.reindex,False
+Series,pandas.Series.reindex_like,False
+Series,pandas.Series.rename,False
+Series,pandas.Series.rename_axis,False
+Series,pandas.Series.reset_index,False
+Series,pandas.Series.sample,False
+Series,pandas.Series.set_axis,False
+Series,pandas.Series.take,False
+Series,pandas.Series.tail,False
+Series,pandas.Series.truncate,False
+Series,pandas.Series.where,False
+Series,pandas.Series.mask,False
+Series,pandas.Series.add_prefix,False
+Series,pandas.Series.add_suffix,False
+Series,pandas.Series.filter,False
+Series,pandas.Series.backfill,False
+Series,pandas.Series.bfill,False
+Series,pandas.Series.dropna,False
+Series,pandas.Series.ffill,False
+Series,pandas.Series.fillna,False
+Series,pandas.Series.interpolate,False
+Series,pandas.Series.isna,False
+Series,pandas.Series.isnull,False
+Series,pandas.Series.notna,False
+Series,pandas.Series.notnull,False
+Series,pandas.Series.pad,False
+Series,pandas.Series.replace,False
+Series,pandas.Series.argsort,False
+Series,pandas.Series.argmin,False
+Series,pandas.Series.argmax,False
+Series,pandas.Series.reorder_levels,False
+Series,pandas.Series.sort_values,False
+Series,pandas.Series.sort_index,False
+Series,pandas.Series.swaplevel,False
+Series,pandas.Series.unstack,False
+Series,pandas.Series.explode,False
+Series,pandas.Series.searchsorted,False
+Series,pandas.Series.ravel,False
+Series,pandas.Series.repeat,False
+Series,pandas.Series.squeeze,False
+Series,pandas.Series.view,False
+Series,pandas.Series.append,False
+Series,pandas.Series.compare,False
+Series,pandas.Series.update,False
+Series,pandas.Series.asfreq,False
+Series,pandas.Series.asof,False
+Series,pandas.Series.shift,False
+Series,pandas.Series.first_valid_index,False
+Series,pandas.Series.last_valid_index,False
+Series,pandas.Series.resample,False
+Series,pandas.Series.tz_convert,False
+Series,pandas.Series.tz_localize,False
+Series,pandas.Series.at_time,True
+Series,pandas.Series.between_time,False
+Series,pandas.Series.tshift,False
+Series,pandas.Series.slice_shift,False
+Series,pandas.Series.dt.date,True
+Series,pandas.Series.dt.time,True
+Series,pandas.Series.dt.timetz,True
+Series,pandas.Series.dt.year,True
+Series,pandas.Series.dt.month,True
+Series,pandas.Series.dt.day,True
+Series,pandas.Series.dt.hour,True
+Series,pandas.Series.dt.minute,True
+Series,pandas.Series.dt.second,True
+Series,pandas.Series.dt.microsecond,True
+Series,pandas.Series.dt.nanosecond,True
+Series,pandas.Series.dt.week,True
+Series,pandas.Series.dt.weekofyear,True
+Series,pandas.Series.dt.dayofweek,True
+Series,pandas.Series.dt.day_of_week,True
+Series,pandas.Series.dt.weekday,True
+Series,pandas.Series.dt.dayofyear,True
+Series,pandas.Series.dt.day_of_year,True
+Series,pandas.Series.dt.quarter,True
+Series,pandas.Series.dt.is_month_start,True
+Series,pandas.Series.dt.is_month_end,True
+Series,pandas.Series.dt.is_quarter_start,True
+Series,pandas.Series.dt.is_quarter_end,True
+Series,pandas.Series.dt.is_year_start,True
+Series,pandas.Series.dt.is_year_end,True
+Series,pandas.Series.dt.is_leap_year,True
+Series,pandas.Series.dt.daysinmonth,True
+Series,pandas.Series.dt.days_in_month,True
+Series,pandas.Series.dt.tz,True
+Series,pandas.Series.dt.freq,True
+Series,pandas.Series.dt.to_period,False
+Series,pandas.Series.dt.to_pydatetime,False
+Series,pandas.Series.dt.tz_localize,True
+Series,pandas.Series.dt.tz_convert,True
+Series,pandas.Series.dt.normalize,False
+Series,pandas.Series.dt.strftime,False
+Series,pandas.Series.dt.round,False
+Series,pandas.Series.dt.floor,False
+Series,pandas.Series.dt.ceil,False
+Series,pandas.Series.dt.month_name,True
+Series,pandas.Series.dt.day_name,True
+Series,pandas.Series.dt.qyear ,True
+Series,pandas.Series.dt.start_time,True
+Series,pandas.Series.dt.end_time,True
+Series,pandas.Series.dt.days,True
+Series,pandas.Series.dt.seconds,True
+Series,pandas.Series.dt.microseconds,True
+Series,pandas.Series.dt.nanoseconds,True
+Series,pandas.Series.dt.components,True
+Series,pandas.Series.dt.to_pytimedelta,False
+Series,pandas.Series.dt.total_seconds,False
+Series,pandas.Series.str.capitalize,False
+Series,pandas.Series.str.casefold,False
+Series,pandas.Series.str.cat,False
+Series,pandas.Series.str.center,False
+Series,pandas.Series.str.contains,False
+Series,pandas.Series.str.count,False
+Series,pandas.Series.str.decode,False
+Series,pandas.Series.str.encode,False
+Series,pandas.Series.str.endswith,False
+Series,pandas.Series.str.extract,False
+Series,pandas.Series.str.extractall,False
+Series,pandas.Series.str.find,False
+Series,pandas.Series.str.findall,False
+Series,pandas.Series.str.fullmatch,False
+Series,pandas.Series.str.get,False
+Series,pandas.Series.str.index,False
+Series,pandas.Series.str.join,False
+Series,pandas.Series.str.len,False
+Series,pandas.Series.str.ljust,False
+Series,pandas.Series.str.lower,False
+Series,pandas.Series.str.lstrip,False
+Series,pandas.Series.str.match,False
+Series,pandas.Series.str.normalize,False
+Series,pandas.Series.str.pad,False
+Series,pandas.Series.str.partition,False
+Series,pandas.Series.str.removeprefix,False
+Series,pandas.Series.str.removesuffix,False
+Series,pandas.Series.str.repeat,False
+Series,pandas.Series.str.replace,False
+Series,pandas.Series.str.rfind,False
+Series,pandas.Series.str.rindex,False
+Series,pandas.Series.str.rjust,False
+Series,pandas.Series.str.rpartition,False
+Series,pandas.Series.str.rstrip,False
+Series,pandas.Series.str.slice,False
+Series,pandas.Series.str.slice_replace,False
+Series,pandas.Series.str.split,False
+Series,pandas.Series.str.rsplit,False
+Series,pandas.Series.str.startswith,False
+Series,pandas.Series.str.strip,False
+Series,pandas.Series.str.swapcase,False
+Series,pandas.Series.str.title,False
+Series,pandas.Series.str.translate,False
+Series,pandas.Series.str.upper,False
+Series,pandas.Series.str.wrap,False
+Series,pandas.Series.str.zfill,False
+Series,pandas.Series.str.isalnum,False
+Series,pandas.Series.str.isalpha,False
+Series,pandas.Series.str.isdigit,False
+Series,pandas.Series.str.isspace,False
+Series,pandas.Series.str.islower,False
+Series,pandas.Series.str.isupper,False
+Series,pandas.Series.str.istitle,False
+Series,pandas.Series.str.isnumeric,False
+Series,pandas.Series.str.isdecimal,False
+Series,pandas.Series.str.get_dummies,False
+Series,pandas.Series.cat.categories,True
+Series,pandas.Series.cat.ordered,True
+Series,pandas.Series.cat.codes,True
+Series,pandas.Series.cat.rename_categories,False
+Series,pandas.Series.cat.reorder_categories,False
+Series,pandas.Series.cat.add_categories,False
+Series,pandas.Series.cat.remove_categories,False
+Series,pandas.Series.cat.remove_unused_categories,False
+Series,pandas.Series.cat.set_categories,False
+Series,pandas.Series.cat.as_ordered,False
+Series,pandas.Series.cat.as_unordered,False
+Series,pandas.Series.sparse.npoints,True
+Series,pandas.Series.sparse.density,True
+Series,pandas.Series.sparse.fill_value,True
+Series,pandas.Series.sparse.sp_values,True
+Series,pandas.Series.sparse.from_coo,False
+Series,pandas.Series.sparse.to_coo,False
+Series,pandas.Flags,False
+Series,pandas.Series.attrs,True
+Series,pandas.Series.plot,False
+Series,pandas.Series.plot.area,False
+Series,pandas.Series.plot.bar,False
+Series,pandas.Series.plot.barh,False
+Series,pandas.Series.plot.box,False
+Series,pandas.Series.plot.density,False
+Series,pandas.Series.plot.hist,False
+Series,pandas.Series.plot.kde,False
+Series,pandas.Series.plot.line,False
+Series,pandas.Series.plot.pie,False
+Series,pandas.Series.hist,False
+Series,pandas.Series.to_pickle,False
+Series,pandas.Series.to_csv,False
+Series,pandas.Series.to_dict,False
+Series,pandas.Series.to_excel,False
+Series,pandas.Series.to_frame,False
+Series,pandas.Series.to_xarray,False
+Series,pandas.Series.to_hdf,False
+Series,pandas.Series.to_sql,False
+Series,pandas.Series.to_json,False
+Series,pandas.Series.to_string,False
+Series,pandas.Series.to_clipboard,False
+Series,pandas.Series.to_latex,False
+Series,pandas.Series.to_markdown,False
+DataFrame,pandas.DataFrame,False
+DataFrame,pandas.DataFrame.index,True
+DataFrame,pandas.DataFrame.columns,True
+DataFrame,pandas.DataFrame.dtypes,True
+DataFrame,pandas.DataFrame.info,False
+DataFrame,pandas.DataFrame.select_dtypes,False
+DataFrame,pandas.DataFrame.values,True
+DataFrame,pandas.DataFrame.axes,True
+DataFrame,pandas.DataFrame.ndim,True
+DataFrame,pandas.DataFrame.size,True
+DataFrame,pandas.DataFrame.shape,True
+DataFrame,pandas.DataFrame.memory_usage,False
+DataFrame,pandas.DataFrame.empty,True
+DataFrame,pandas.DataFrame.set_flags,False
+DataFrame,pandas.DataFrame.astype,False
+DataFrame,pandas.DataFrame.convert_dtypes,False
+DataFrame,pandas.DataFrame.infer_objects,False
+DataFrame,pandas.DataFrame.copy,False
+DataFrame,pandas.DataFrame.bool,False
+DataFrame,pandas.DataFrame.head,False
+DataFrame,pandas.DataFrame.at,True
+DataFrame,pandas.DataFrame.iat,True
+DataFrame,pandas.DataFrame.loc,True
+DataFrame,pandas.DataFrame.iloc,True
+DataFrame,pandas.DataFrame.insert,False
+DataFrame,pandas.DataFrame.__iter__,False
+DataFrame,pandas.DataFrame.items,False
+DataFrame,pandas.DataFrame.iteritems,False
+DataFrame,pandas.DataFrame.keys,False
+DataFrame,pandas.DataFrame.iterrows,False
+DataFrame,pandas.DataFrame.itertuples,False
+DataFrame,pandas.DataFrame.lookup,False
+DataFrame,pandas.DataFrame.pop,False
+DataFrame,pandas.DataFrame.tail,False
+DataFrame,pandas.DataFrame.xs,False
+DataFrame,pandas.DataFrame.get,False
+DataFrame,pandas.DataFrame.isin,False
+DataFrame,pandas.DataFrame.where,False
+DataFrame,pandas.DataFrame.mask,False
+DataFrame,pandas.DataFrame.query,False
+DataFrame,pandas.DataFrame.add,False
+DataFrame,pandas.DataFrame.sub,False
+DataFrame,pandas.DataFrame.mul,False
+DataFrame,pandas.DataFrame.div,False
+DataFrame,pandas.DataFrame.truediv,False
+DataFrame,pandas.DataFrame.floordiv,False
+DataFrame,pandas.DataFrame.mod,False
+DataFrame,pandas.DataFrame.pow,False
+DataFrame,pandas.DataFrame.dot,False
+DataFrame,pandas.DataFrame.radd,False
+DataFrame,pandas.DataFrame.rsub,False
+DataFrame,pandas.DataFrame.rmul,False
+DataFrame,pandas.DataFrame.rdiv,False
+DataFrame,pandas.DataFrame.rtruediv,False
+DataFrame,pandas.DataFrame.rfloordiv,False
+DataFrame,pandas.DataFrame.rmod,False
+DataFrame,pandas.DataFrame.rpow,False
+DataFrame,pandas.DataFrame.lt,False
+DataFrame,pandas.DataFrame.gt,False
+DataFrame,pandas.DataFrame.le,False
+DataFrame,pandas.DataFrame.ge,False
+DataFrame,pandas.DataFrame.ne,False
+DataFrame,pandas.DataFrame.eq,False
+DataFrame,pandas.DataFrame.combine,False
+DataFrame,pandas.DataFrame.combine_first,False
+DataFrame,pandas.DataFrame.apply,False
+DataFrame,pandas.DataFrame.applymap,False
+DataFrame,pandas.DataFrame.pipe,False
+DataFrame,pandas.DataFrame.agg,False
+DataFrame,pandas.DataFrame.aggregate,False
+DataFrame,pandas.DataFrame.transform,False
+DataFrame,pandas.DataFrame.groupby,False
+DataFrame,pandas.DataFrame.rolling,False
+DataFrame,pandas.DataFrame.expanding,False
+DataFrame,pandas.DataFrame.ewm,False
+DataFrame,pandas.DataFrame.abs,False
+DataFrame,pandas.DataFrame.all,False
+DataFrame,pandas.DataFrame.any,False
+DataFrame,pandas.DataFrame.clip,False
+DataFrame,pandas.DataFrame.corr,False
+DataFrame,pandas.DataFrame.corrwith,False
+DataFrame,pandas.DataFrame.count,False
+DataFrame,pandas.DataFrame.cov,False
+DataFrame,pandas.DataFrame.cummax,False
+DataFrame,pandas.DataFrame.cummin,False
+DataFrame,pandas.DataFrame.cumprod,False
+DataFrame,pandas.DataFrame.cumsum,False
+DataFrame,pandas.DataFrame.describe,False
+DataFrame,pandas.DataFrame.diff,False
+DataFrame,pandas.DataFrame.eval,False
+DataFrame,pandas.DataFrame.kurt,False
+DataFrame,pandas.DataFrame.kurtosis,False
+DataFrame,pandas.DataFrame.mad,False
+DataFrame,pandas.DataFrame.max,False
+DataFrame,pandas.DataFrame.mean,False
+DataFrame,pandas.DataFrame.median,False
+DataFrame,pandas.DataFrame.min,False
+DataFrame,pandas.DataFrame.mode,False
+DataFrame,pandas.DataFrame.pct_change,False
+DataFrame,pandas.DataFrame.prod,False
+DataFrame,pandas.DataFrame.product,False
+DataFrame,pandas.DataFrame.quantile,False
+DataFrame,pandas.DataFrame.rank,False
+DataFrame,pandas.DataFrame.round,False
+DataFrame,pandas.DataFrame.sem,False
+DataFrame,pandas.DataFrame.skew,False
+DataFrame,pandas.DataFrame.sum,False
+DataFrame,pandas.DataFrame.std,False
+DataFrame,pandas.DataFrame.var,False
+DataFrame,pandas.DataFrame.nunique,False
+DataFrame,pandas.DataFrame.value_counts,False
+DataFrame,pandas.DataFrame.add_prefix,False
+DataFrame,pandas.DataFrame.add_suffix,False
+DataFrame,pandas.DataFrame.align,False
+DataFrame,pandas.DataFrame.at_time,True
+DataFrame,pandas.DataFrame.between_time,False
+DataFrame,pandas.DataFrame.drop,False
+DataFrame,pandas.DataFrame.drop_duplicates,False
+DataFrame,pandas.DataFrame.duplicated,False
+DataFrame,pandas.DataFrame.equals,False
+DataFrame,pandas.DataFrame.filter,False
+DataFrame,pandas.DataFrame.first,False
+DataFrame,pandas.DataFrame.head,False
+DataFrame,pandas.DataFrame.idxmax,False
+DataFrame,pandas.DataFrame.idxmin,False
+DataFrame,pandas.DataFrame.last,False
+DataFrame,pandas.DataFrame.reindex,False
+DataFrame,pandas.DataFrame.reindex_like,False
+DataFrame,pandas.DataFrame.rename,False
+DataFrame,pandas.DataFrame.rename_axis,False
+DataFrame,pandas.DataFrame.reset_index,False
+DataFrame,pandas.DataFrame.sample,False
+DataFrame,pandas.DataFrame.set_axis,False
+DataFrame,pandas.DataFrame.set_index,False
+DataFrame,pandas.DataFrame.tail,False
+DataFrame,pandas.DataFrame.take,False
+DataFrame,pandas.DataFrame.truncate,False
+DataFrame,pandas.DataFrame.backfill,False
+DataFrame,pandas.DataFrame.bfill,False
+DataFrame,pandas.DataFrame.dropna,False
+DataFrame,pandas.DataFrame.ffill,False
+DataFrame,pandas.DataFrame.fillna,False
+DataFrame,pandas.DataFrame.interpolate,False
+DataFrame,pandas.DataFrame.isna,False
+DataFrame,pandas.DataFrame.isnull,False
+DataFrame,pandas.DataFrame.notna,False
+DataFrame,pandas.DataFrame.notnull,False
+DataFrame,pandas.DataFrame.pad,False
+DataFrame,pandas.DataFrame.replace,False
+DataFrame,pandas.DataFrame.droplevel,False
+DataFrame,pandas.DataFrame.pivot,False
+DataFrame,pandas.DataFrame.pivot_table,False
+DataFrame,pandas.DataFrame.reorder_levels,False
+DataFrame,pandas.DataFrame.sort_values,False
+DataFrame,pandas.DataFrame.sort_index,False
+DataFrame,pandas.DataFrame.nlargest,False
+DataFrame,pandas.DataFrame.nsmallest,False
+DataFrame,pandas.DataFrame.swaplevel,False
+DataFrame,pandas.DataFrame.stack,False
+DataFrame,pandas.DataFrame.unstack,False
+DataFrame,pandas.DataFrame.swapaxes,False
+DataFrame,pandas.DataFrame.melt,False
+DataFrame,pandas.DataFrame.explode,False
+DataFrame,pandas.DataFrame.squeeze,False
+DataFrame,pandas.DataFrame.to_xarray,False
+DataFrame,pandas.DataFrame.T,True
+DataFrame,pandas.DataFrame.transpose,False
+DataFrame,pandas.DataFrame.append,False
+DataFrame,pandas.DataFrame.assign,False
+DataFrame,pandas.DataFrame.compare,False
+DataFrame,pandas.DataFrame.join,False
+DataFrame,pandas.DataFrame.merge,False
+DataFrame,pandas.DataFrame.update,False
+DataFrame,pandas.DataFrame.asfreq,False
+DataFrame,pandas.DataFrame.asof,False
+DataFrame,pandas.DataFrame.shift,False
+DataFrame,pandas.DataFrame.slice_shift,False
+DataFrame,pandas.DataFrame.tshift,False
+DataFrame,pandas.DataFrame.first_valid_index,False
+DataFrame,pandas.DataFrame.last_valid_index,False
+DataFrame,pandas.DataFrame.resample,False
+DataFrame,pandas.DataFrame.to_period,False
+DataFrame,pandas.DataFrame.to_timestamp,False
+DataFrame,pandas.DataFrame.tz_convert,False
+DataFrame,pandas.DataFrame.tz_localize,False
+DataFrame,pandas.Flags,False
+DataFrame,pandas.DataFrame.attrs,True
+DataFrame,pandas.DataFrame.plot,False
+DataFrame,pandas.DataFrame.plot.area,False
+DataFrame,pandas.DataFrame.plot.bar,False
+DataFrame,pandas.DataFrame.plot.barh,False
+DataFrame,pandas.DataFrame.plot.box,False
+DataFrame,pandas.DataFrame.plot.density,False
+DataFrame,pandas.DataFrame.plot.hexbin,False
+DataFrame,pandas.DataFrame.plot.hist,False
+DataFrame,pandas.DataFrame.plot.kde,False
+DataFrame,pandas.DataFrame.plot.line,False
+DataFrame,pandas.DataFrame.plot.pie,False
+DataFrame,pandas.DataFrame.plot.scatter,False
+DataFrame,pandas.DataFrame.boxplot,False
+DataFrame,pandas.DataFrame.hist,False
+DataFrame,pandas.DataFrame.sparse.density,True
+DataFrame,pandas.DataFrame.sparse.from_spmatrix,False
+DataFrame,pandas.DataFrame.sparse.to_coo,False
+DataFrame,pandas.DataFrame.sparse.to_dense,False
+DataFrame,pandas.DataFrame.from_dict,False
+DataFrame,pandas.DataFrame.from_records,False
+DataFrame,pandas.DataFrame.to_parquet,False
+DataFrame,pandas.DataFrame.to_pickle,False
+DataFrame,pandas.DataFrame.to_csv,False
+DataFrame,pandas.DataFrame.to_hdf,False
+DataFrame,pandas.DataFrame.to_sql,False
+DataFrame,pandas.DataFrame.to_dict,False
+DataFrame,pandas.DataFrame.to_excel,False
+DataFrame,pandas.DataFrame.to_json,False
+DataFrame,pandas.DataFrame.to_html,False
+DataFrame,pandas.DataFrame.to_feather,False
+DataFrame,pandas.DataFrame.to_latex,False
+DataFrame,pandas.DataFrame.to_stata,False
+DataFrame,pandas.DataFrame.to_gbq,False
+DataFrame,pandas.DataFrame.to_records,False
+DataFrame,pandas.DataFrame.to_string,False
+DataFrame,pandas.DataFrame.to_clipboard,False
+DataFrame,pandas.DataFrame.to_markdown,False
+DataFrame,pandas.DataFrame.style,True
+"pandas arrays, scalars, and data types",pandas.array,False
+"pandas arrays, scalars, and data types",pandas.Timestamp,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.asm8,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.day,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.dayofweek,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.day_of_week,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.dayofyear,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.day_of_year,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.days_in_month,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.daysinmonth,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.fold,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.hour,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.is_leap_year,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.is_month_end,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.is_month_start,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.is_quarter_end,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.is_quarter_start,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.is_year_end,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.is_year_start,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.max,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.microsecond,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.min,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.minute,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.month ,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.nanosecond,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.quarter,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.resolution,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.second,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.tz,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.tzinfo,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.value,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.week,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.weekofyear,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.year,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.astimezone,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.ceil,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.combine,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.ctime,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.date,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.day_name,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.dst,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.floor,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.freq,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.freqstr,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.fromordinal,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.fromtimestamp,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.isocalendar,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.isoformat,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.isoweekday,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.month_name,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.normalize,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.now,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.replace,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.round,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.strftime,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.strptime,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.time,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.timestamp,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.timetuple,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.timetz,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.to_datetime64,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.to_numpy,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.to_julian_date,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.to_period,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.to_pydatetime,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.today,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.toordinal,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.tz_convert,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.tz_localize,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.tzname,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.utcfromtimestamp,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.utcnow,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.utcoffset,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.utctimetuple,False
+"pandas arrays, scalars, and data types",pandas.Timestamp.weekday,False
+"pandas arrays, scalars, and data types",pandas.arrays.DatetimeArray,False
+"pandas arrays, scalars, and data types",pandas.DatetimeTZDtype,False
+"pandas arrays, scalars, and data types",pandas.Timedelta,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.asm8,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.components,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.days,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.delta,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.freq,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.is_populated,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.max,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.microseconds,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.min,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.nanoseconds,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.resolution,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.seconds,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.value,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.view,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.ceil,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.floor,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.isoformat,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.round,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.to_pytimedelta,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.to_timedelta64,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.to_numpy,False
+"pandas arrays, scalars, and data types",pandas.Timedelta.total_seconds,False
+"pandas arrays, scalars, and data types",pandas.arrays.TimedeltaArray,False
+"pandas arrays, scalars, and data types",pandas.Period,False
+"pandas arrays, scalars, and data types",pandas.Period.day,False
+"pandas arrays, scalars, and data types",pandas.Period.dayofweek,False
+"pandas arrays, scalars, and data types",pandas.Period.day_of_week,False
+"pandas arrays, scalars, and data types",pandas.Period.dayofyear,False
+"pandas arrays, scalars, and data types",pandas.Period.day_of_year,False
+"pandas arrays, scalars, and data types",pandas.Period.days_in_month,False
+"pandas arrays, scalars, and data types",pandas.Period.daysinmonth,False
+"pandas arrays, scalars, and data types",pandas.Period.end_time,False
+"pandas arrays, scalars, and data types",pandas.Period.freq,False
+"pandas arrays, scalars, and data types",pandas.Period.freqstr,False
+"pandas arrays, scalars, and data types",pandas.Period.hour,False
+"pandas arrays, scalars, and data types",pandas.Period.is_leap_year,False
+"pandas arrays, scalars, and data types",pandas.Period.minute,False
+"pandas arrays, scalars, and data types",pandas.Period.month,False
+"pandas arrays, scalars, and data types",pandas.Period.ordinal,False
+"pandas arrays, scalars, and data types",pandas.Period.quarter,False
+"pandas arrays, scalars, and data types",pandas.Period.qyear,False
+"pandas arrays, scalars, and data types",pandas.Period.second,False
+"pandas arrays, scalars, and data types",pandas.Period.start_time,False
+"pandas arrays, scalars, and data types",pandas.Period.week,False
+"pandas arrays, scalars, and data types",pandas.Period.weekday,False
+"pandas arrays, scalars, and data types",pandas.Period.weekofyear,False
+"pandas arrays, scalars, and data types",pandas.Period.year,False
+"pandas arrays, scalars, and data types",pandas.Period.asfreq,False
+"pandas arrays, scalars, and data types",pandas.Period.now,False
+"pandas arrays, scalars, and data types",pandas.Period.strftime,False
+"pandas arrays, scalars, and data types",pandas.Period.to_timestamp,False
+"pandas arrays, scalars, and data types",pandas.arrays.PeriodArray,False
+"pandas arrays, scalars, and data types",pandas.PeriodDtype,False
+"pandas arrays, scalars, and data types",pandas.Interval,False
+"pandas arrays, scalars, and data types",pandas.Interval.closed,False
+"pandas arrays, scalars, and data types",pandas.Interval.closed_left,False
+"pandas arrays, scalars, and data types",pandas.Interval.closed_right,False
+"pandas arrays, scalars, and data types",pandas.Interval.is_empty,False
+"pandas arrays, scalars, and data types",pandas.Interval.left,False
+"pandas arrays, scalars, and data types",pandas.Interval.length,False
+"pandas arrays, scalars, and data types",pandas.Interval.mid,False
+"pandas arrays, scalars, and data types",pandas.Interval.open_left,False
+"pandas arrays, scalars, and data types",pandas.Interval.open_right,False
+"pandas arrays, scalars, and data types",pandas.Interval.overlaps,False
+"pandas arrays, scalars, and data types",pandas.Interval.right,False
+"pandas arrays, scalars, and data types",pandas.arrays.IntervalArray,False
+"pandas arrays, scalars, and data types",pandas.IntervalDtype,False
+"pandas arrays, scalars, and data types",pandas.arrays.IntegerArray,False
+"pandas arrays, scalars, and data types",pandas.Int8Dtype,False
+"pandas arrays, scalars, and data types",pandas.Int16Dtype,False
+"pandas arrays, scalars, and data types",pandas.Int32Dtype,False
+"pandas arrays, scalars, and data types",pandas.Int64Dtype,False
+"pandas arrays, scalars, and data types",pandas.UInt8Dtype,False
+"pandas arrays, scalars, and data types",pandas.UInt16Dtype,False
+"pandas arrays, scalars, and data types",pandas.UInt32Dtype,False
+"pandas arrays, scalars, and data types",pandas.UInt64Dtype,False
+"pandas arrays, scalars, and data types",pandas.CategoricalDtype,False
+"pandas arrays, scalars, and data types",pandas.CategoricalDtype.categories,False
+"pandas arrays, scalars, and data types",pandas.CategoricalDtype.ordered,False
+"pandas arrays, scalars, and data types",pandas.Categorical,False
+"pandas arrays, scalars, and data types",pandas.Categorical.from_codes,False
+"pandas arrays, scalars, and data types",pandas.Categorical.dtype,False
+"pandas arrays, scalars, and data types",pandas.Categorical.categories,False
+"pandas arrays, scalars, and data types",pandas.Categorical.ordered,False
+"pandas arrays, scalars, and data types",pandas.Categorical.codes,False
+"pandas arrays, scalars, and data types",pandas.Categorical.__array__,False
+"pandas arrays, scalars, and data types",pandas.arrays.SparseArray,False
+"pandas arrays, scalars, and data types",pandas.SparseDtype,False
+"pandas arrays, scalars, and data types",pandas.arrays.StringArray,False
+"pandas arrays, scalars, and data types",pandas.arrays.ArrowStringArray,False
+"pandas arrays, scalars, and data types",pandas.StringDtype,False
+"pandas arrays, scalars, and data types",pandas.arrays.BooleanArray,False
+"pandas arrays, scalars, and data types",pandas.BooleanDtype,False
+General utility functions,pandas.describe_option,False
+General utility functions,pandas.reset_option,False
+General utility functions,pandas.get_option,False
+General utility functions,pandas.set_option,False
+General utility functions,pandas.option_context,False
+General utility functions,pandas.testing.assert_frame_equal,False
+General utility functions,pandas.testing.assert_series_equal,False
+General utility functions,pandas.testing.assert_index_equal,False
+General utility functions,pandas.testing.assert_extension_array_equal,False
+General utility functions,pandas.errors.AbstractMethodError,False
+General utility functions,pandas.errors.AccessorRegistrationWarning,False
+General utility functions,pandas.errors.DtypeWarning,False
+General utility functions,pandas.errors.DuplicateLabelError,False
+General utility functions,pandas.errors.EmptyDataError,False
+General utility functions,pandas.errors.InvalidIndexError,False
+General utility functions,pandas.errors.IntCastingNaNError,False
+General utility functions,pandas.errors.MergeError,False
+General utility functions,pandas.errors.NullFrequencyError,False
+General utility functions,pandas.errors.NumbaUtilError,False
+General utility functions,pandas.errors.OptionError,False
+General utility functions,pandas.errors.OutOfBoundsDatetime,False
+General utility functions,pandas.errors.OutOfBoundsTimedelta,False
+General utility functions,pandas.errors.ParserError,False
+General utility functions,pandas.errors.ParserWarning,False
+General utility functions,pandas.errors.PerformanceWarning,False
+General utility functions,pandas.errors.UnsortedIndexError,False
+General utility functions,pandas.errors.UnsupportedFunctionCall,False
+General utility functions,pandas.api.types.union_categoricals,False
+General utility functions,pandas.api.types.infer_dtype,False
+General utility functions,pandas.api.types.pandas_dtype,False
+General utility functions,pandas.api.types.is_bool_dtype,False
+General utility functions,pandas.api.types.is_categorical_dtype,False
+General utility functions,pandas.api.types.is_complex_dtype,False
+General utility functions,pandas.api.types.is_datetime64_any_dtype,False
+General utility functions,pandas.api.types.is_datetime64_dtype,False
+General utility functions,pandas.api.types.is_datetime64_ns_dtype,False
+General utility functions,pandas.api.types.is_datetime64tz_dtype,False
+General utility functions,pandas.api.types.is_extension_type,False
+General utility functions,pandas.api.types.is_extension_array_dtype,False
+General utility functions,pandas.api.types.is_float_dtype,False
+General utility functions,pandas.api.types.is_int64_dtype,False
+General utility functions,pandas.api.types.is_integer_dtype,False
+General utility functions,pandas.api.types.is_interval_dtype,False
+General utility functions,pandas.api.types.is_numeric_dtype,False
+General utility functions,pandas.api.types.is_object_dtype,False
+General utility functions,pandas.api.types.is_period_dtype,False
+General utility functions,pandas.api.types.is_signed_integer_dtype,False
+General utility functions,pandas.api.types.is_string_dtype,False
+General utility functions,pandas.api.types.is_timedelta64_dtype,False
+General utility functions,pandas.api.types.is_timedelta64_ns_dtype,False
+General utility functions,pandas.api.types.is_unsigned_integer_dtype,False
+General utility functions,pandas.api.types.is_sparse,False
+General utility functions,pandas.api.types.is_dict_like,False
+General utility functions,pandas.api.types.is_file_like,False
+General utility functions,pandas.api.types.is_list_like,False
+General utility functions,pandas.api.types.is_named_tuple,False
+General utility functions,pandas.api.types.is_iterator,False
+General utility functions,pandas.api.types.is_bool,False
+General utility functions,pandas.api.types.is_categorical,False
+General utility functions,pandas.api.types.is_complex,False
+General utility functions,pandas.api.types.is_float,False
+General utility functions,pandas.api.types.is_hashable,False
+General utility functions,pandas.api.types.is_integer,False
+General utility functions,pandas.api.types.is_interval,False
+General utility functions,pandas.api.types.is_number,False
+General utility functions,pandas.api.types.is_re,False
+General utility functions,pandas.api.types.is_re_compilable,False
+General utility functions,pandas.api.types.is_scalar,False
+General utility functions,pandas.show_versions,False
+pandas.Series,pandas.Series.T,True
+pandas.Series,pandas.Series.array,True
+pandas.Series,pandas.Series.at,True
+pandas.Series,pandas.Series.attrs,True
+pandas.Series,pandas.Series.axes,False
+pandas.Series,pandas.Series.dtype,True
+pandas.Series,pandas.Series.dtypes,True
+pandas.Series,pandas.Series.flags,True
+pandas.Series,pandas.Series.hasnans,True
+pandas.Series,pandas.Series.iat,True
+pandas.Series,pandas.Series.iloc,True
+pandas.Series,pandas.Series.index,True
+pandas.Series,pandas.Series.is_monotonic,True
+pandas.Series,pandas.Series.is_monotonic_decreasing,True
+pandas.Series,pandas.Series.is_monotonic_increasing,True
+pandas.Series,pandas.Series.is_unique,True
+pandas.Series,pandas.Series.loc,True
+pandas.Series,pandas.Series.name,True
+pandas.Series,pandas.Series.nbytes,True
+pandas.Series,pandas.Series.ndim,True
+pandas.Series,pandas.Series.shape,True
+pandas.Series,pandas.Series.size,True
+pandas.Series,pandas.Series.values,True
+pandas.Series,pandas.Series.abs,False
+pandas.Series,pandas.Series.add,False
+pandas.Series,pandas.Series.add_prefix,False
+pandas.Series,pandas.Series.add_suffix,False
+pandas.Series,pandas.Series.agg,False
+pandas.Series,pandas.Series.aggregate,False
+pandas.Series,pandas.Series.align,False
+pandas.Series,pandas.Series.all,False
+pandas.Series,pandas.Series.any,False
+pandas.Series,pandas.Series.append,False
+pandas.Series,pandas.Series.apply,False
+pandas.Series,pandas.Series.argmax,False
+pandas.Series,pandas.Series.argmin,False
+pandas.Series,pandas.Series.argsort,False
+pandas.Series,pandas.Series.asfreq,False
+pandas.Series,pandas.Series.asof,False
+pandas.Series,pandas.Series.astype,False
+pandas.Series,pandas.Series.at_time,True
+pandas.Series,pandas.Series.autocorr,False
+pandas.Series,pandas.Series.backfill,False
+pandas.Series,pandas.Series.between,False
+pandas.Series,pandas.Series.between_time,False
+pandas.Series,pandas.Series.bfill,False
+pandas.Series,pandas.Series.bool,False
+pandas.Series,pandas.Series.cat,False
+pandas.Series,pandas.Series.clip,False
+pandas.Series,pandas.Series.combine,False
+pandas.Series,pandas.Series.combine_first,False
+pandas.Series,pandas.Series.compare,False
+pandas.Series,pandas.Series.convert_dtypes,False
+pandas.Series,pandas.Series.copy,False
+pandas.Series,pandas.Series.corr,False
+pandas.Series,pandas.Series.count,False
+pandas.Series,pandas.Series.cov,False
+pandas.Series,pandas.Series.cummax,False
+pandas.Series,pandas.Series.cummin,False
+pandas.Series,pandas.Series.cumprod,False
+pandas.Series,pandas.Series.cumsum,False
+pandas.Series,pandas.Series.describe,False
+pandas.Series,pandas.Series.diff,False
+pandas.Series,pandas.Series.div,False
+pandas.Series,pandas.Series.divide,False
+pandas.Series,pandas.Series.divmod,False
+pandas.Series,pandas.Series.dot,False
+pandas.Series,pandas.Series.drop,False
+pandas.Series,pandas.Series.drop_duplicates,False
+pandas.Series,pandas.Series.droplevel,False
+pandas.Series,pandas.Series.dropna,False
+pandas.Series,pandas.Series.dt,False
+pandas.Series,pandas.Series.duplicated,False
+pandas.Series,pandas.Series.eq,False
+pandas.Series,pandas.Series.equals,False
+pandas.Series,pandas.Series.ewm,False
+pandas.Series,pandas.Series.expanding,False
+pandas.Series,pandas.Series.explode,False
+pandas.Series,pandas.Series.factorize,False
+pandas.Series,pandas.Series.ffill,False
+pandas.Series,pandas.Series.fillna,False
+pandas.Series,pandas.Series.filter,False
+pandas.Series,pandas.Series.first,False
+pandas.Series,pandas.Series.first_valid_index,False
+pandas.Series,pandas.Series.floordiv,False
+pandas.Series,pandas.Series.ge,False
+pandas.Series,pandas.Series.get,False
+pandas.Series,pandas.Series.groupby,False
+pandas.Series,pandas.Series.gt,False
+pandas.Series,pandas.Series.head,False
+pandas.Series,pandas.Series.hist,False
+pandas.Series,pandas.Series.idxmax,False
+pandas.Series,pandas.Series.idxmin,False
+pandas.Series,pandas.Series.infer_objects,False
+pandas.Series,pandas.Series.info,False
+pandas.Series,pandas.Series.interpolate,False
+pandas.Series,pandas.Series.isin,False
+pandas.Series,pandas.Series.isna,False
+pandas.Series,pandas.Series.isnull,False
+pandas.Series,pandas.Series.item,False
+pandas.Series,pandas.Series.items,False
+pandas.Series,pandas.Series.iteritems,False
+pandas.Series,pandas.Series.keys,False
+pandas.Series,pandas.Series.kurt,False
+pandas.Series,pandas.Series.kurtosis,False
+pandas.Series,pandas.Series.last,False
+pandas.Series,pandas.Series.last_valid_index,False
+pandas.Series,pandas.Series.le,False
+pandas.Series,pandas.Series.lt,False
+pandas.Series,pandas.Series.mad,False
+pandas.Series,pandas.Series.map,False
+pandas.Series,pandas.Series.mask,False
+pandas.Series,pandas.Series.max,False
+pandas.Series,pandas.Series.mean,False
+pandas.Series,pandas.Series.median,False
+pandas.Series,pandas.Series.memory_usage,False
+pandas.Series,pandas.Series.min,False
+pandas.Series,pandas.Series.mod,False
+pandas.Series,pandas.Series.mode,False
+pandas.Series,pandas.Series.mul,False
+pandas.Series,pandas.Series.multiply,False
+pandas.Series,pandas.Series.ne,False
+pandas.Series,pandas.Series.nlargest,False
+pandas.Series,pandas.Series.notna,False
+pandas.Series,pandas.Series.notnull,False
+pandas.Series,pandas.Series.nsmallest,False
+pandas.Series,pandas.Series.nunique,False
+pandas.Series,pandas.Series.pad,False
+pandas.Series,pandas.Series.pct_change,False
+pandas.Series,pandas.Series.pipe,False
+pandas.Series,pandas.Series.plot,False
+pandas.Series,pandas.Series.pop,False
+pandas.Series,pandas.Series.pow,False
+pandas.Series,pandas.Series.prod,False
+pandas.Series,pandas.Series.product,False
+pandas.Series,pandas.Series.quantile,False
+pandas.Series,pandas.Series.radd,False
+pandas.Series,pandas.Series.rank,False
+pandas.Series,pandas.Series.ravel,False
+pandas.Series,pandas.Series.rdiv,False
+pandas.Series,pandas.Series.rdivmod,False
+pandas.Series,pandas.Series.reindex,False
+pandas.Series,pandas.Series.reindex_like,False
+pandas.Series,pandas.Series.rename,False
+pandas.Series,pandas.Series.rename_axis,False
+pandas.Series,pandas.Series.reorder_levels,False
+pandas.Series,pandas.Series.repeat,False
+pandas.Series,pandas.Series.replace,False
+pandas.Series,pandas.Series.resample,False
+pandas.Series,pandas.Series.reset_index,False
+pandas.Series,pandas.Series.rfloordiv,False
+pandas.Series,pandas.Series.rmod,False
+pandas.Series,pandas.Series.rmul,False
+pandas.Series,pandas.Series.rolling,False
+pandas.Series,pandas.Series.round,False
+pandas.Series,pandas.Series.rpow,False
+pandas.Series,pandas.Series.rsub,False
+pandas.Series,pandas.Series.rtruediv,False
+pandas.Series,pandas.Series.sample,False
+pandas.Series,pandas.Series.searchsorted,False
+pandas.Series,pandas.Series.sem,False
+pandas.Series,pandas.Series.set_axis,False
+pandas.Series,pandas.Series.set_flags,False
+pandas.Series,pandas.Series.shift,False
+pandas.Series,pandas.Series.skew,False
+pandas.Series,pandas.Series.slice_shift,False
+pandas.Series,pandas.Series.sort_index,False
+pandas.Series,pandas.Series.sort_values,False
+pandas.Series,pandas.Series.sparse,False
+pandas.Series,pandas.Series.squeeze,False
+pandas.Series,pandas.Series.std,False
+pandas.Series,pandas.Series.str,False
+pandas.Series,pandas.Series.sub,False
+pandas.Series,pandas.Series.subtract,False
+pandas.Series,pandas.Series.sum,False
+pandas.Series,pandas.Series.swapaxes,False
+pandas.Series,pandas.Series.swaplevel,False
+pandas.Series,pandas.Series.tail,False
+pandas.Series,pandas.Series.take,False
+pandas.Series,pandas.Series.to_clipboard,False
+pandas.Series,pandas.Series.to_csv,False
+pandas.Series,pandas.Series.to_dict,False
+pandas.Series,pandas.Series.to_excel,False
+pandas.Series,pandas.Series.to_frame,False
+pandas.Series,pandas.Series.to_hdf,False
+pandas.Series,pandas.Series.to_json,False
+pandas.Series,pandas.Series.to_latex,False
+pandas.Series,pandas.Series.to_list,False
+pandas.Series,pandas.Series.to_markdown,False
+pandas.Series,pandas.Series.to_numpy,False
+pandas.Series,pandas.Series.to_period,False
+pandas.Series,pandas.Series.to_pickle,False
+pandas.Series,pandas.Series.to_sql,False
+pandas.Series,pandas.Series.to_string,False
+pandas.Series,pandas.Series.to_timestamp,False
+pandas.Series,pandas.Series.to_xarray,False
+pandas.Series,pandas.Series.tolist,False
+pandas.Series,pandas.Series.transform,False
+pandas.Series,pandas.Series.transpose,False
+pandas.Series,pandas.Series.truediv,False
+pandas.Series,pandas.Series.truncate,False
+pandas.Series,pandas.Series.tshift,False
+pandas.Series,pandas.Series.tz_convert,False
+pandas.Series,pandas.Series.tz_localize,False
+pandas.Series,pandas.Series.unique,False
+pandas.Series,pandas.Series.unstack,False
+pandas.Series,pandas.Series.update,False
+pandas.Series,pandas.Series.value_counts,False
+pandas.Series,pandas.Series.var,False
+pandas.Series,pandas.Series.view,False
+pandas.Series,pandas.Series.where,False
+pandas.Series,pandas.Series.xs,False
+pandas.DataFrame,pandas.DataFrame.at,True
+pandas.DataFrame,pandas.DataFrame.attrs,True
+pandas.DataFrame,pandas.DataFrame.axes,True
+pandas.DataFrame,pandas.DataFrame.columns,True
+pandas.DataFrame,pandas.DataFrame.dtypes,True
+pandas.DataFrame,pandas.DataFrame.empty,True
+pandas.DataFrame,pandas.DataFrame.flags,False
+pandas.DataFrame,pandas.DataFrame.iat,True
+pandas.DataFrame,pandas.DataFrame.iloc,True
+pandas.DataFrame,pandas.DataFrame.index,True
+pandas.DataFrame,pandas.DataFrame.loc,True
+pandas.DataFrame,pandas.DataFrame.ndim,True
+pandas.DataFrame,pandas.DataFrame.shape,True
+pandas.DataFrame,pandas.DataFrame.size,True
+pandas.DataFrame,pandas.DataFrame.style,True
+pandas.DataFrame,pandas.DataFrame.values,True
+pandas.DataFrame,pandas.DataFrame.abs,False
+pandas.DataFrame,pandas.DataFrame.add,False
+pandas.DataFrame,pandas.DataFrame.add_prefix,False
+pandas.DataFrame,pandas.DataFrame.add_suffix,False
+pandas.DataFrame,pandas.DataFrame.agg,False
+pandas.DataFrame,pandas.DataFrame.aggregate,False
+pandas.DataFrame,pandas.DataFrame.align,False
+pandas.DataFrame,pandas.DataFrame.all,False
+pandas.DataFrame,pandas.DataFrame.any,False
+pandas.DataFrame,pandas.DataFrame.append,False
+pandas.DataFrame,pandas.DataFrame.apply,False
+pandas.DataFrame,pandas.DataFrame.applymap,False
+pandas.DataFrame,pandas.DataFrame.asfreq,False
+pandas.DataFrame,pandas.DataFrame.asof,False
+pandas.DataFrame,pandas.DataFrame.assign,False
+pandas.DataFrame,pandas.DataFrame.astype,False
+pandas.DataFrame,pandas.DataFrame.at_time,True
+pandas.DataFrame,pandas.DataFrame.backfill,False
+pandas.DataFrame,pandas.DataFrame.between_time,False
+pandas.DataFrame,pandas.DataFrame.bfill,False
+pandas.DataFrame,pandas.DataFrame.bool,False
+pandas.DataFrame,pandas.DataFrame.boxplot,False
+pandas.DataFrame,pandas.DataFrame.clip,False
+pandas.DataFrame,pandas.DataFrame.combine,False
+pandas.DataFrame,pandas.DataFrame.combine_first,False
+pandas.DataFrame,pandas.DataFrame.compare,False
+pandas.DataFrame,pandas.DataFrame.convert_dtypes,False
+pandas.DataFrame,pandas.DataFrame.copy,False
+pandas.DataFrame,pandas.DataFrame.corr,False
+pandas.DataFrame,pandas.DataFrame.corrwith,False
+pandas.DataFrame,pandas.DataFrame.count,False
+pandas.DataFrame,pandas.DataFrame.cov,False
+pandas.DataFrame,pandas.DataFrame.cummax,False
+pandas.DataFrame,pandas.DataFrame.cummin,False
+pandas.DataFrame,pandas.DataFrame.cumprod,False
+pandas.DataFrame,pandas.DataFrame.cumsum,False
+pandas.DataFrame,pandas.DataFrame.describe,False
+pandas.DataFrame,pandas.DataFrame.diff,False
+pandas.DataFrame,pandas.DataFrame.div,False
+pandas.DataFrame,pandas.DataFrame.divide,False
+pandas.DataFrame,pandas.DataFrame.dot,False
+pandas.DataFrame,pandas.DataFrame.drop,False
+pandas.DataFrame,pandas.DataFrame.drop_duplicates,False
+pandas.DataFrame,pandas.DataFrame.droplevel,False
+pandas.DataFrame,pandas.DataFrame.dropna,False
+pandas.DataFrame,pandas.DataFrame.duplicated,False
+pandas.DataFrame,pandas.DataFrame.eq,False
+pandas.DataFrame,pandas.DataFrame.equals,False
+pandas.DataFrame,pandas.DataFrame.eval,False
+pandas.DataFrame,pandas.DataFrame.ewm,False
+pandas.DataFrame,pandas.DataFrame.expanding,False
+pandas.DataFrame,pandas.DataFrame.explode,False
+pandas.DataFrame,pandas.DataFrame.ffill,False
+pandas.DataFrame,pandas.DataFrame.fillna,False
+pandas.DataFrame,pandas.DataFrame.filter,False
+pandas.DataFrame,pandas.DataFrame.first,False
+pandas.DataFrame,pandas.DataFrame.first_valid_index,False
+pandas.DataFrame,pandas.DataFrame.floordiv,False
+pandas.DataFrame,pandas.DataFrame.from_dict,False
+pandas.DataFrame,pandas.DataFrame.from_records,False
+pandas.DataFrame,pandas.DataFrame.ge,False
+pandas.DataFrame,pandas.DataFrame.get,False
+pandas.DataFrame,pandas.DataFrame.groupby,False
+pandas.DataFrame,pandas.DataFrame.gt,False
+pandas.DataFrame,pandas.DataFrame.head,False
+pandas.DataFrame,pandas.DataFrame.hist,False
+pandas.DataFrame,pandas.DataFrame.idxmax,False
+pandas.DataFrame,pandas.DataFrame.idxmin,False
+pandas.DataFrame,pandas.DataFrame.infer_objects,False
+pandas.DataFrame,pandas.DataFrame.info,False
+pandas.DataFrame,pandas.DataFrame.insert,False
+pandas.DataFrame,pandas.DataFrame.interpolate,False
+pandas.DataFrame,pandas.DataFrame.isin,False
+pandas.DataFrame,pandas.DataFrame.isna,False
+pandas.DataFrame,pandas.DataFrame.isnull,False
+pandas.DataFrame,pandas.DataFrame.items,False
+pandas.DataFrame,pandas.DataFrame.iteritems,False
+pandas.DataFrame,pandas.DataFrame.iterrows,False
+pandas.DataFrame,pandas.DataFrame.itertuples,False
+pandas.DataFrame,pandas.DataFrame.join,False
+pandas.DataFrame,pandas.DataFrame.keys,False
+pandas.DataFrame,pandas.DataFrame.kurt,False
+pandas.DataFrame,pandas.DataFrame.kurtosis,False
+pandas.DataFrame,pandas.DataFrame.last,False
+pandas.DataFrame,pandas.DataFrame.last_valid_index,False
+pandas.DataFrame,pandas.DataFrame.le,False
+pandas.DataFrame,pandas.DataFrame.lookup,False
+pandas.DataFrame,pandas.DataFrame.lt,False
+pandas.DataFrame,pandas.DataFrame.mad,False
+pandas.DataFrame,pandas.DataFrame.mask,False
+pandas.DataFrame,pandas.DataFrame.max,False
+pandas.DataFrame,pandas.DataFrame.mean,False
+pandas.DataFrame,pandas.DataFrame.median,False
+pandas.DataFrame,pandas.DataFrame.melt,False
+pandas.DataFrame,pandas.DataFrame.memory_usage,False
+pandas.DataFrame,pandas.DataFrame.merge,False
+pandas.DataFrame,pandas.DataFrame.min,False
+pandas.DataFrame,pandas.DataFrame.mod,False
+pandas.DataFrame,pandas.DataFrame.mode,False
+pandas.DataFrame,pandas.DataFrame.mul,False
+pandas.DataFrame,pandas.DataFrame.multiply,False
+pandas.DataFrame,pandas.DataFrame.ne,False
+pandas.DataFrame,pandas.DataFrame.nlargest,False
+pandas.DataFrame,pandas.DataFrame.notna,False
+pandas.DataFrame,pandas.DataFrame.notnull,False
+pandas.DataFrame,pandas.DataFrame.nsmallest,False
+pandas.DataFrame,pandas.DataFrame.nunique,False
+pandas.DataFrame,pandas.DataFrame.pad,False
+pandas.DataFrame,pandas.DataFrame.pct_change,False
+pandas.DataFrame,pandas.DataFrame.pipe,False
+pandas.DataFrame,pandas.DataFrame.pivot,False
+pandas.DataFrame,pandas.DataFrame.pivot_table,False
+pandas.DataFrame,pandas.DataFrame.plot,False
+pandas.DataFrame,pandas.DataFrame.pop,False
+pandas.DataFrame,pandas.DataFrame.pow,False
+pandas.DataFrame,pandas.DataFrame.prod,False
+pandas.DataFrame,pandas.DataFrame.product,False
+pandas.DataFrame,pandas.DataFrame.quantile,False
+pandas.DataFrame,pandas.DataFrame.query,False
+pandas.DataFrame,pandas.DataFrame.radd,False
+pandas.DataFrame,pandas.DataFrame.rank,False
+pandas.DataFrame,pandas.DataFrame.rdiv,False
+pandas.DataFrame,pandas.DataFrame.reindex,False
+pandas.DataFrame,pandas.DataFrame.reindex_like,False
+pandas.DataFrame,pandas.DataFrame.rename,False
+pandas.DataFrame,pandas.DataFrame.rename_axis,False
+pandas.DataFrame,pandas.DataFrame.reorder_levels,False
+pandas.DataFrame,pandas.DataFrame.replace,False
+pandas.DataFrame,pandas.DataFrame.resample,False
+pandas.DataFrame,pandas.DataFrame.reset_index,False
+pandas.DataFrame,pandas.DataFrame.rfloordiv,False
+pandas.DataFrame,pandas.DataFrame.rmod,False
+pandas.DataFrame,pandas.DataFrame.rmul,False
+pandas.DataFrame,pandas.DataFrame.rolling,False
+pandas.DataFrame,pandas.DataFrame.round,False
+pandas.DataFrame,pandas.DataFrame.rpow,False
+pandas.DataFrame,pandas.DataFrame.rsub,False
+pandas.DataFrame,pandas.DataFrame.rtruediv,False
+pandas.DataFrame,pandas.DataFrame.sample,False
+pandas.DataFrame,pandas.DataFrame.select_dtypes,False
+pandas.DataFrame,pandas.DataFrame.sem,False
+pandas.DataFrame,pandas.DataFrame.set_axis,False
+pandas.DataFrame,pandas.DataFrame.set_flags,False
+pandas.DataFrame,pandas.DataFrame.set_index,False
+pandas.DataFrame,pandas.DataFrame.shift,False
+pandas.DataFrame,pandas.DataFrame.skew,False
+pandas.DataFrame,pandas.DataFrame.slice_shift,False
+pandas.DataFrame,pandas.DataFrame.sort_index,False
+pandas.DataFrame,pandas.DataFrame.sort_values,False
+pandas.DataFrame,pandas.DataFrame.sparse,False
+pandas.DataFrame,pandas.DataFrame.squeeze,False
+pandas.DataFrame,pandas.DataFrame.stack,False
+pandas.DataFrame,pandas.DataFrame.std,False
+pandas.DataFrame,pandas.DataFrame.sub,False
+pandas.DataFrame,pandas.DataFrame.subtract,False
+pandas.DataFrame,pandas.DataFrame.sum,False
+pandas.DataFrame,pandas.DataFrame.swapaxes,False
+pandas.DataFrame,pandas.DataFrame.swaplevel,False
+pandas.DataFrame,pandas.DataFrame.tail,False
+pandas.DataFrame,pandas.DataFrame.take,False
+pandas.DataFrame,pandas.DataFrame.to_clipboard,False
+pandas.DataFrame,pandas.DataFrame.to_csv,False
+pandas.DataFrame,pandas.DataFrame.to_dict,False
+pandas.DataFrame,pandas.DataFrame.to_excel,False
+pandas.DataFrame,pandas.DataFrame.to_feather,False
+pandas.DataFrame,pandas.DataFrame.to_gbq,False
+pandas.DataFrame,pandas.DataFrame.to_hdf,False
+pandas.DataFrame,pandas.DataFrame.to_html,False
+pandas.DataFrame,pandas.DataFrame.to_json,False
+pandas.DataFrame,pandas.DataFrame.to_latex,False
+pandas.DataFrame,pandas.DataFrame.to_markdown,False
+pandas.DataFrame,pandas.DataFrame.to_numpy,False
+pandas.DataFrame,pandas.DataFrame.to_parquet,False
+pandas.DataFrame,pandas.DataFrame.to_period,False
+pandas.DataFrame,pandas.DataFrame.to_pickle,False
+pandas.DataFrame,pandas.DataFrame.to_records,False
+pandas.DataFrame,pandas.DataFrame.to_sql,False
+pandas.DataFrame,pandas.DataFrame.to_stata,False
+pandas.DataFrame,pandas.DataFrame.to_string,False
+pandas.DataFrame,pandas.DataFrame.to_timestamp,False
+pandas.DataFrame,pandas.DataFrame.to_xarray,False
+pandas.DataFrame,pandas.DataFrame.to_xml,False
+pandas.DataFrame,pandas.DataFrame.transform,False
+pandas.DataFrame,pandas.DataFrame.transpose,False
+pandas.DataFrame,pandas.DataFrame.truediv,False
+pandas.DataFrame,pandas.DataFrame.truncate,False
+pandas.DataFrame,pandas.DataFrame.tshift,False
+pandas.DataFrame,pandas.DataFrame.tz_convert,False
+pandas.DataFrame,pandas.DataFrame.tz_localize,False
+pandas.DataFrame,pandas.DataFrame.unstack,False
+pandas.DataFrame,pandas.DataFrame.update,False
+pandas.DataFrame,pandas.DataFrame.value_counts,False
+pandas.DataFrame,pandas.DataFrame.var,False
+pandas.DataFrame,pandas.DataFrame.where,False
+pandas.DataFrame,pandas.DataFrame.xs,False
+Plotting,pandas.plotting.andrews_curves,False
+Plotting,pandas.plotting.autocorrelation_plot,False
+Plotting,pandas.plotting.bootstrap_plot,False
+Plotting,pandas.plotting.boxplot,False
+Plotting,pandas.plotting.deregister_matplotlib_converters,False
+Plotting,pandas.plotting.lag_plot,False
+Plotting,pandas.plotting.parallel_coordinates,False
+Plotting,pandas.plotting.plot_params,False
+Plotting,pandas.plotting.radviz,False
+Plotting,pandas.plotting.register_matplotlib_converters,False
+Plotting,pandas.plotting.scatter_matrix,False
+Plotting,pandas.plotting.table,False
