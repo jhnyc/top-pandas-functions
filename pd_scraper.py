@@ -60,7 +60,7 @@ if __name__ == '__main__':
     df = pd.concat(all_df).reset_index(drop=True)
     # identify method or property
     all_props = parse_properties()
-    df['is_prop'] = df['functions'].apply(
+    df['is_prop'] = df['function'].apply(
         lambda x: True if any([p in x for p in all_props]) else False)
     # output csv
     df.to_csv('all_functions.csv', index=False)
