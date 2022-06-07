@@ -1,0 +1,103 @@
+Method,Description,object
+capitalize(),Converts the first character to upper case,string
+casefold(),Converts string into lower case,string
+center(),Returns a centered string,string
+count(),Returns the number of times a specified value occurs in a string,string
+encode(),Returns an encoded version of the string,string
+endswith(),Returns true if the string ends with the specified value,string
+expandtabs(),Sets the tab size of the string,string
+find(),Searches the string for a specified value and returns the position of where it was found,string
+format(),Formats specified values in a string,string
+format_map(),Formats specified values in a string,string
+index(),Searches the string for a specified value and returns the position of where it was found,string
+isalnum(),Returns True if all characters in the string are alphanumeric,string
+isalpha(),Returns True if all characters in the string are in the alphabet,string
+isascii(),Returns True if all characters in the string are ascii characters,string
+isdecimal(),Returns True if all characters in the string are decimals,string
+isdigit(),Returns True if all characters in the string are digits,string
+isidentifier(),Returns True if the string is an identifier,string
+islower(),Returns True if all characters in the string are lower case,string
+isnumeric(),Returns True if all characters in the string are numeric,string
+isprintable(),Returns True if all characters in the string are printable,string
+isspace(),Returns True if all characters in the string are whitespaces,string
+istitle(),Returns True if the string follows the rules of a title,string
+isupper(),Returns True if all characters in the string are upper case,string
+join(),Converts the elements of an iterable into a string,string
+ljust(),Returns a left justified version of the string,string
+lower(),Converts a string into lower case,string
+lstrip(),Returns a left trim version of the string,string
+maketrans(),Returns a translation table to be used in translations,string
+partition(),Returns a tuple where the string is parted into three parts,string
+replace(),Returns a string where a specified value is replaced with a specified value,string
+rfind(),Searches the string for a specified value and returns the last position of where it was found,string
+rindex(),Searches the string for a specified value and returns the last position of where it was found,string
+rjust(),Returns a right justified version of the string,string
+rpartition(),Returns a tuple where the string is parted into three parts,string
+rsplit(),"Splits the string at the specified separator, and returns a list",string
+rstrip(),Returns a right trim version of the string,string
+split(),"Splits the string at the specified separator, and returns a list",string
+splitlines(),Splits the string at line breaks and returns a list,string
+startswith(),Returns true if the string starts with the specified value,string
+strip(),Returns a trimmed version of the string,string
+swapcase(),"Swaps cases, lower case becomes upper case and vice versa",string
+title(),Converts the first character of each word to upper case,string
+translate(),Returns a translated string,string
+upper(),Converts a string into upper case,string
+zfill(),Fills the string with a specified number of 0 values at the beginning,string
+append(),Adds an element at the end of the list,list
+clear(),Removes all the elements from the list,list
+copy(),Returns a copy of the list,list
+count(),Returns the number of elements with the specified value,list
+extend(),"Add the elements of a list (or any iterable), to the end of the current list",list
+index(),Returns the index of the first element with the specified value,list
+insert(),Adds an element at the specified position,list
+pop(),Removes the element at the specified position,list
+remove(),Removes the first item with the specified value,list
+reverse(),Reverses the order of the list,list
+sort(),Sorts the list,list
+count(),Returns the number of times a specified value occurs in a tuple,tuple
+index(),Searches the tuple for a specified value and returns the position of where it was found,tuple
+clear(),Removes all the elements from the dictionary,dictionary
+copy(),Returns a copy of the dictionary,dictionary
+fromkeys(),Returns a dictionary with the specified keys and value,dictionary
+get(),Returns the value of the specified key,dictionary
+items(),Returns a list containing a tuple for each key value pair,dictionary
+keys(),Returns a list containing the dictionary's keys,dictionary
+pop(),Removes the element with the specified key,dictionary
+popitem(),Removes the last inserted key-value pair,dictionary
+setdefault(),"Returns the value of the specified key. If the key does not exist: insert the key, with the specified value",dictionary
+update(),Updates the dictionary with the specified key-value pairs,dictionary
+values(),Returns a list of all the values in the dictionary,dictionary
+add(),Adds an element to the set,set
+clear(),Removes all the elements from the set,set
+copy(),Returns a copy of the set,set
+difference(),Returns a set containing the difference between two or more sets,set
+difference_update(),"Removes the items in this set that are also included in another, specified set",set
+discard(),Remove the specified item,set
+intersection(),"Returns a set, that is the intersection of two or more sets",set
+intersection_update(),"Removes the items in this set that are not present in other, specified set(s)",set
+isdisjoint(),Returns whether two sets have a intersection or not,set
+issubset(),Returns whether another set contains this set or not,set
+issuperset(),Returns whether this set contains another set or not,set
+pop(),Removes an element from the set,set
+remove(),Removes the specified element,set
+symmetric_difference(),Returns a set with the symmetric differences of two sets,set
+symmetric_difference_update(),inserts the symmetric differences from this set and another,set
+union(),Return a set containing the union of sets,set
+update(),"Update the set with another set, or any other iterable",set
+close(),Closes the file,file
+detach(),Returns the separated raw stream from the buffer,file
+fileno(),"Returns a number that represents the stream, from the operating system's perspective",file
+flush(),Flushes the internal buffer,file
+isatty(),Returns whether the file stream is interactive or not,file
+read(),Returns the file content,file
+readable(),Returns whether the file stream can be read or not,file
+readline(),Returns one line from the file,file
+readlines(),Returns a list of lines from the file,file
+seek(),Change the file position,file
+seekable(),Returns whether the file allows us to change the file position,file
+tell(),Returns the current file position,file
+truncate(),Resizes the file to a specified size,file
+writable(),Returns whether the file can be written to or not,file
+write(),Writes the specified string to the file,file
+writelines(),Writes a list of strings to the file,file

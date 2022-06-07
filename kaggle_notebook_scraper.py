@@ -46,12 +46,12 @@ def get_code_links(start=1, page=10):
     return output
 
 
-def download_nb_from_id(_id, name, folder_dir='codes'):
+def download_nb_from_id(_id, name, folder_dir='notebooks'):
     """Download a Kaggle notebook given the notebook id.
 
     Args:
         _id (str): Notebook id.
-        folder_dir (str): Folder to save the notebook. Defaults to 'codes'.
+        folder_dir (str): Folder to save the notebook. Defaults to 'notebooks'.
 
     Returns:
         str: Path to the downloaded notebook.
@@ -72,7 +72,7 @@ def get_nb_id_and_download(links):
         links (dict): url-name pairs
     """
     existing_nb_ids = [i.split('_')[0]
-                       for i in os.listdir('codes') if i.endswith('ipynb')]
+                       for i in os.listdir('notebooks') if i.endswith('ipynb')]
     print("Downloading notebooks...")
     for url in tqdm(links):
         res = requests.get(url)

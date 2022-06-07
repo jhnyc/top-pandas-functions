@@ -1,0 +1,299 @@
+section,function,is_prop
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.flags,True
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.shape,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.strides,True
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.ndim,True
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.data,True
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.size,True
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.itemsize,True
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.nbytes,True
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.base,True
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.dtype,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.T,True
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.real,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.imag,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.flat,True
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.ctypes,True
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.item,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.tolist,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.itemset,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.tostring,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.tobytes,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.tofile,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.dump,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.dumps,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.astype,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.byteswap,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.copy,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.view,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.getfield,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.setflags,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.fill,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.reshape,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.resize,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.transpose,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.swapaxes,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.flatten,True
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.ravel,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.squeeze,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.take,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.put,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.repeat,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.choose,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.sort,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.argsort,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.partition,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.argpartition,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.searchsorted,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.nonzero,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.compress,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.diagonal,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.max,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.argmax,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.min,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.argmin,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.ptp,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.clip,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.conj,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.round,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.trace,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.sum,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.cumsum,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.mean,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.var,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.std,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.prod,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.cumprod,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.all,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.any,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__lt__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__le__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__gt__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__ge__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__eq__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__ne__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__bool__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__neg__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__pos__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__abs__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__invert__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__add__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__sub__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__mul__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__truediv__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__floordiv__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__mod__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__divmod__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__pow__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__lshift__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__rshift__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__and__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__or__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__xor__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__iadd__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__isub__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__imul__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__itruediv__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__ifloordiv__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__imod__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__ipow__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__ilshift__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__irshift__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__iand__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__ior__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__ixor__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__matmul__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__copy__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__deepcopy__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__reduce__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__setstate__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__new__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__array__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__array_wrap__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__len__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__getitem__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__setitem__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__contains__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__int__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__float__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__complex__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__str__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__repr__,False
+     The N-dimensional array (            ndarray           )    ,numpy.ndarray.__class_getitem__,False
+       numpy.ndarray      ,numpy.ndarray.all,False
+       numpy.ndarray      ,numpy.ndarray.any,False
+       numpy.ndarray      ,numpy.ndarray.argmax,False
+       numpy.ndarray      ,numpy.ndarray.argmin,False
+       numpy.ndarray      ,numpy.ndarray.argpartition,False
+       numpy.ndarray      ,numpy.ndarray.argsort,False
+       numpy.ndarray      ,numpy.ndarray.astype,False
+       numpy.ndarray      ,numpy.ndarray.byteswap,False
+       numpy.ndarray      ,numpy.ndarray.choose,False
+       numpy.ndarray      ,numpy.ndarray.clip,False
+       numpy.ndarray      ,numpy.ndarray.compress,False
+       numpy.ndarray      ,numpy.ndarray.conj,False
+       numpy.ndarray      ,numpy.ndarray.conjugate,False
+       numpy.ndarray      ,numpy.ndarray.copy,False
+       numpy.ndarray      ,numpy.ndarray.cumprod,False
+       numpy.ndarray      ,numpy.ndarray.cumsum,False
+       numpy.ndarray      ,numpy.ndarray.diagonal,False
+       numpy.ndarray      ,numpy.ndarray.dump,False
+       numpy.ndarray      ,numpy.ndarray.dumps,False
+       numpy.ndarray      ,numpy.ndarray.fill,False
+       numpy.ndarray      ,numpy.ndarray.flatten,True
+       numpy.ndarray      ,numpy.ndarray.getfield,False
+       numpy.ndarray      ,numpy.ndarray.item,False
+       numpy.ndarray      ,numpy.ndarray.itemset,False
+       numpy.ndarray      ,numpy.ndarray.max,False
+       numpy.ndarray      ,numpy.ndarray.mean,False
+       numpy.ndarray      ,numpy.ndarray.min,False
+       numpy.ndarray      ,numpy.ndarray.newbyteorder,False
+       numpy.ndarray      ,numpy.ndarray.nonzero,False
+       numpy.ndarray      ,numpy.ndarray.partition,False
+       numpy.ndarray      ,numpy.ndarray.prod,False
+       numpy.ndarray      ,numpy.ndarray.ptp,False
+       numpy.ndarray      ,numpy.ndarray.put,False
+       numpy.ndarray      ,numpy.ndarray.ravel,False
+       numpy.ndarray      ,numpy.ndarray.repeat,False
+       numpy.ndarray      ,numpy.ndarray.reshape,False
+       numpy.ndarray      ,numpy.ndarray.resize,False
+       numpy.ndarray      ,numpy.ndarray.round,False
+       numpy.ndarray      ,numpy.ndarray.searchsorted,False
+       numpy.ndarray      ,numpy.ndarray.setfield,False
+       numpy.ndarray      ,numpy.ndarray.setflags,False
+       numpy.ndarray      ,numpy.ndarray.sort,False
+       numpy.ndarray      ,numpy.ndarray.squeeze,False
+       numpy.ndarray      ,numpy.ndarray.std,False
+       numpy.ndarray      ,numpy.ndarray.sum,False
+       numpy.ndarray      ,numpy.ndarray.swapaxes,False
+       numpy.ndarray      ,numpy.ndarray.take,False
+       numpy.ndarray      ,numpy.ndarray.tobytes,False
+       numpy.ndarray      ,numpy.ndarray.tofile,False
+       numpy.ndarray      ,numpy.ndarray.tolist,False
+       numpy.ndarray      ,numpy.ndarray.tostring,False
+       numpy.ndarray      ,numpy.ndarray.trace,False
+       numpy.ndarray      ,numpy.ndarray.transpose,False
+       numpy.ndarray      ,numpy.ndarray.var,False
+       numpy.ndarray      ,numpy.ndarray.view,False
+       numpy.ndarray      ,numpy.ndarray.flags,True
+       numpy.ndarray      ,numpy.ndarray.shape,False
+       numpy.ndarray      ,numpy.ndarray.strides,True
+       numpy.ndarray      ,numpy.ndarray.ndim,True
+       numpy.ndarray      ,numpy.ndarray.data,True
+       numpy.ndarray      ,numpy.ndarray.size,True
+       numpy.ndarray      ,numpy.ndarray.itemsize,True
+       numpy.ndarray      ,numpy.ndarray.nbytes,True
+       numpy.ndarray      ,numpy.ndarray.base,True
+       numpy.ndarray      ,numpy.ndarray.dtype,False
+       numpy.ndarray      ,numpy.ndarray.T,True
+       numpy.ndarray      ,numpy.ndarray.real,False
+       numpy.ndarray      ,numpy.ndarray.imag,False
+       numpy.ndarray      ,numpy.ndarray.flat,True
+       numpy.ndarray      ,numpy.ndarray.ctypes,True
+       numpy.ndarray      ,numpy.ndarray.item,False
+       numpy.ndarray      ,numpy.ndarray.tolist,False
+       numpy.ndarray      ,numpy.ndarray.itemset,False
+       numpy.ndarray      ,numpy.ndarray.tostring,False
+       numpy.ndarray      ,numpy.ndarray.tobytes,False
+       numpy.ndarray      ,numpy.ndarray.tofile,False
+       numpy.ndarray      ,numpy.ndarray.dump,False
+       numpy.ndarray      ,numpy.ndarray.dumps,False
+       numpy.ndarray      ,numpy.ndarray.astype,False
+       numpy.ndarray      ,numpy.ndarray.byteswap,False
+       numpy.ndarray      ,numpy.ndarray.copy,False
+       numpy.ndarray      ,numpy.ndarray.view,False
+       numpy.ndarray      ,numpy.ndarray.getfield,False
+       numpy.ndarray      ,numpy.ndarray.setflags,False
+       numpy.ndarray      ,numpy.ndarray.fill,False
+       numpy.ndarray      ,numpy.ndarray.reshape,False
+       numpy.ndarray      ,numpy.ndarray.resize,False
+       numpy.ndarray      ,numpy.ndarray.transpose,False
+       numpy.ndarray      ,numpy.ndarray.swapaxes,False
+       numpy.ndarray      ,numpy.ndarray.flatten,True
+       numpy.ndarray      ,numpy.ndarray.ravel,False
+       numpy.ndarray      ,numpy.ndarray.squeeze,False
+       numpy.ndarray      ,numpy.ndarray.take,False
+       numpy.ndarray      ,numpy.ndarray.put,False
+       numpy.ndarray      ,numpy.ndarray.repeat,False
+       numpy.ndarray      ,numpy.ndarray.choose,False
+       numpy.ndarray      ,numpy.ndarray.sort,False
+       numpy.ndarray      ,numpy.ndarray.argsort,False
+       numpy.ndarray      ,numpy.ndarray.partition,False
+       numpy.ndarray      ,numpy.ndarray.argpartition,False
+       numpy.ndarray      ,numpy.ndarray.searchsorted,False
+       numpy.ndarray      ,numpy.ndarray.nonzero,False
+       numpy.ndarray      ,numpy.ndarray.compress,False
+       numpy.ndarray      ,numpy.ndarray.diagonal,False
+       numpy.ndarray      ,numpy.ndarray.max,False
+       numpy.ndarray      ,numpy.ndarray.argmax,False
+       numpy.ndarray      ,numpy.ndarray.min,False
+       numpy.ndarray      ,numpy.ndarray.argmin,False
+       numpy.ndarray      ,numpy.ndarray.ptp,False
+       numpy.ndarray      ,numpy.ndarray.clip,False
+       numpy.ndarray      ,numpy.ndarray.conj,False
+       numpy.ndarray      ,numpy.ndarray.round,False
+       numpy.ndarray      ,numpy.ndarray.trace,False
+       numpy.ndarray      ,numpy.ndarray.sum,False
+       numpy.ndarray      ,numpy.ndarray.cumsum,False
+       numpy.ndarray      ,numpy.ndarray.mean,False
+       numpy.ndarray      ,numpy.ndarray.var,False
+       numpy.ndarray      ,numpy.ndarray.std,False
+       numpy.ndarray      ,numpy.ndarray.prod,False
+       numpy.ndarray      ,numpy.ndarray.cumprod,False
+       numpy.ndarray      ,numpy.ndarray.all,False
+       numpy.ndarray      ,numpy.ndarray.any,False
+       numpy.ndarray      ,numpy.ndarray.__lt__,False
+       numpy.ndarray      ,numpy.ndarray.__le__,False
+       numpy.ndarray      ,numpy.ndarray.__gt__,False
+       numpy.ndarray      ,numpy.ndarray.__ge__,False
+       numpy.ndarray      ,numpy.ndarray.__eq__,False
+       numpy.ndarray      ,numpy.ndarray.__ne__,False
+       numpy.ndarray      ,numpy.ndarray.__bool__,False
+       numpy.ndarray      ,numpy.ndarray.__neg__,False
+       numpy.ndarray      ,numpy.ndarray.__pos__,False
+       numpy.ndarray      ,numpy.ndarray.__abs__,False
+       numpy.ndarray      ,numpy.ndarray.__invert__,False
+       numpy.ndarray      ,numpy.ndarray.__add__,False
+       numpy.ndarray      ,numpy.ndarray.__sub__,False
+       numpy.ndarray      ,numpy.ndarray.__mul__,False
+       numpy.ndarray      ,numpy.ndarray.__truediv__,False
+       numpy.ndarray      ,numpy.ndarray.__floordiv__,False
+       numpy.ndarray      ,numpy.ndarray.__mod__,False
+       numpy.ndarray      ,numpy.ndarray.__divmod__,False
+       numpy.ndarray      ,numpy.ndarray.__pow__,False
+       numpy.ndarray      ,numpy.ndarray.__lshift__,False
+       numpy.ndarray      ,numpy.ndarray.__rshift__,False
+       numpy.ndarray      ,numpy.ndarray.__and__,False
+       numpy.ndarray      ,numpy.ndarray.__or__,False
+       numpy.ndarray      ,numpy.ndarray.__xor__,False
+       numpy.ndarray      ,numpy.ndarray.__iadd__,False
+       numpy.ndarray      ,numpy.ndarray.__isub__,False
+       numpy.ndarray      ,numpy.ndarray.__imul__,False
+       numpy.ndarray      ,numpy.ndarray.__itruediv__,False
+       numpy.ndarray      ,numpy.ndarray.__ifloordiv__,False
+       numpy.ndarray      ,numpy.ndarray.__imod__,False
+       numpy.ndarray      ,numpy.ndarray.__ipow__,False
+       numpy.ndarray      ,numpy.ndarray.__ilshift__,False
+       numpy.ndarray      ,numpy.ndarray.__irshift__,False
+       numpy.ndarray      ,numpy.ndarray.__iand__,False
+       numpy.ndarray      ,numpy.ndarray.__ior__,False
+       numpy.ndarray      ,numpy.ndarray.__ixor__,False
+       numpy.ndarray      ,numpy.ndarray.__matmul__,False
+       numpy.ndarray      ,numpy.ndarray.__copy__,False
+       numpy.ndarray      ,numpy.ndarray.__deepcopy__,False
+       numpy.ndarray      ,numpy.ndarray.__reduce__,False
+       numpy.ndarray      ,numpy.ndarray.__setstate__,False
+       numpy.ndarray      ,numpy.ndarray.__new__,False
+       numpy.ndarray      ,numpy.ndarray.__array__,False
+       numpy.ndarray      ,numpy.ndarray.__array_wrap__,False
+       numpy.ndarray      ,numpy.ndarray.__len__,False
+       numpy.ndarray      ,numpy.ndarray.__getitem__,False
+       numpy.ndarray      ,numpy.ndarray.__setitem__,False
+       numpy.ndarray      ,numpy.ndarray.__contains__,False
+       numpy.ndarray      ,numpy.ndarray.__int__,False
+       numpy.ndarray      ,numpy.ndarray.__float__,False
+       numpy.ndarray      ,numpy.ndarray.__complex__,False
+       numpy.ndarray      ,numpy.ndarray.__str__,False
+       numpy.ndarray      ,numpy.ndarray.__repr__,False
+       numpy.ndarray      ,numpy.ndarray.__class_getitem__,False
