@@ -10,4 +10,4 @@ for o in object_methods:
     all_.append(tmp)
 
 df = pd.concat(all_).reset_index(drop=True)
-df.to_csv("data/all_builtin_methods.csv", index=False)
+df.to_csv("../data/all_builtin_methods.csv", index=False)

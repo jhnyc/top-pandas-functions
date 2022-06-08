@@ -57,4 +57,4 @@ if __name__ == '__main__':
     df['is_prop'] = df['function'].apply(
         lambda x: True if any([p in x for p in all_props]) else False)
     # output csv
-    df.to_csv('data/np_array_methods.csv', index=False)
+    df.to_csv('../data/np_array_methods.csv', index=False)

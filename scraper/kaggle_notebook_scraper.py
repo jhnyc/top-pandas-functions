@@ -46,7 +46,7 @@ def get_code_links(start=1, page=10):
     return output
 
 
-def download_nb_from_id(_id, name, folder_dir='notebooks'):
+def download_nb_from_id(_id, name, folder_dir='../notebooks'):
     """Download a Kaggle notebook given the notebook id.
 
     Args:
